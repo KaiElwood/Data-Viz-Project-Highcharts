@@ -12,7 +12,7 @@ Highcharts.chart('hcContainer', {
     // colors: ['#4D6E79', '#303D43', '#907561', '#781F30', '#EC382A', '#61884D', '#C9AC4D', '#52496D', '#5AA992', '#887295', '#2576CE', '#aa266a'],
     // Chart Title and Subtitle
     title: {
-      text: "Unaccompanied Child Migrants at the US Border"
+      text: "Unaccompanied Migrant Minors"
     },
     subtitle: {
       text: "Apprehensions and Resettlements 2017-2021*"
@@ -21,7 +21,7 @@ Highcharts.chart('hcContainer', {
     credits: {
       enabled: true,
       href: false,
-      text: "CSIS Project Kai | Source: OFFICE OF REFUGEE RESETTLEMENT"
+      text: "Sources: US Office of Refugee Resettlement, US Border Patrol"
     },
     // Chart Legend
     legend: {
@@ -35,7 +35,7 @@ Highcharts.chart('hcContainer', {
     // Y Axis
     yAxis: {
       title: { 
-        text: "Number of Minors"
+        text: "Number of Unaccompanied Minors"
       },
     },
     // Additional Plot Options
