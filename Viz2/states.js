@@ -119,7 +119,7 @@ function renderChart(data) {
                 var target = e.target.parentNode;
                 year = target.getAttribute("value");
                 yearCent = year.slice(2) + "cent";
-                document.getElementsByClassName('highcharts-subtitle')[1].innerHTML = 'Fiscal Year ' + year;
+                document.getElementsByClassName('highcharts-subtitle')[0].innerHTML = 'Fiscal Year ' + year;
                 // chart.series[0].data[0].update({
                 //     colorKey: `${yearCent}`
                 // })
