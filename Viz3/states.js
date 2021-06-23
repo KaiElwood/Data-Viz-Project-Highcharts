@@ -1,5 +1,5 @@
 let dataset = [];
-let year = 2021;
+let year = 2017;
 let yearCent = '21cent';
 
 Highcharts.data({
@@ -47,7 +47,7 @@ Highcharts.data({
 function renderChart(data) {
     Highcharts.mapChart("hcContainer2", {
     title: {
-      text: "States With Most Unaccompanied Minors Released From Government Care, Adjusted by Population Size",
+      text: "States With Most Unaccompanied Minors Released From US Government Care",
       style: {
         fontFamily: "Roboto, Arial, sans-serif",
       },
@@ -63,15 +63,15 @@ function renderChart(data) {
     },
     colorAxis: {
         min: 1,
-        max: 1.1,
+        max: 10000,
         type: 'logarithmic',
-        minColor: '#EEEEFF',
-        maxColor: '#000022',
-        stops: [
-            [0, '#EFEFFF'],
-            [0.30, '#4444FF'],
-            [1, '#000022']
-        ]
+        minColor: '#efedf5',
+        maxColor: '#756bb1'
+        // stops: [
+        //     [0, '#efedf5'],
+        //     [5000, '#bcbddc'],
+        //     [10000, '#756bb1']
+        // ]
     },
     credits: {
       enabled: true,
@@ -103,7 +103,7 @@ function renderChart(data) {
         data: data,
         mapData: Highcharts.maps["countries/us/us-all"],
         borderColor: "white",
-        colorKey: `${yearCent}`,
+        colorKey: `${year}`,
         joinBy: ["hc-key", "code"],
         nullColor: "#fff",
       },
@@ -123,7 +123,7 @@ function renderChart(data) {
                 // chart.series[0].data[0].update({
                 //     colorKey: `${yearCent}`
                 // })
-                chart.series.colorKey = `${yearCent}`;
+                chart.series.colorKey = `${year}`;
                 // console.log(chart.series.colorKey);
                 // chart.redraw();
                 // element = target;
