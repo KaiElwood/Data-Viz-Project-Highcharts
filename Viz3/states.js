@@ -65,8 +65,8 @@ function renderChart(data) {
         min: 1,
         max: 10000,
         type: 'logarithmic',
-        minColor: '#efedf5',
-        maxColor: '#756bb1'
+        minColor: '##BEBFE2',
+        maxColor: '#2E294F'
         // stops: [
         //     [0, '#efedf5'],
         //     [5000, '#bcbddc'],
