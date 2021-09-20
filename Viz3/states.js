@@ -3,8 +3,9 @@ let year = 2017;
 let yearCent = '21cent';
 
 Highcharts.data({
-    googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
-    googleSpreadsheetWorksheet: 3,
+    // googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
+    // googleSpreadsheetWorksheet: 3,
+    csv: document.getElementById('csv').innerHTML,
 //   switchRowsAndColumns: true,
   parsed: function (columns) {
     for (let i = 1; i < columns.length; i++) {
@@ -65,13 +66,13 @@ function renderChart(data) {
         min: 1,
         max: 10000,
         type: 'logarithmic',
-        minColor: '##BEBFE2',
-        maxColor: '#2E294F'
-        // stops: [
-        //     [0, '#efedf5'],
-        //     [5000, '#bcbddc'],
-        //     [10000, '#756bb1']
-        // ]
+        minColor: '#ffecb3',
+        maxColor: '#6a1B9A',
+        stops: [
+            [0, '#ffecb3'],
+            // [.2, '#e85285'],
+            [1, '#6a1B9A']
+        ]
     },
     credits: {
       enabled: true,

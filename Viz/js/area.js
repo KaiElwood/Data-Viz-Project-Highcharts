@@ -1,8 +1,11 @@
+
+
 Highcharts.chart('hcContainer', {
     // Load Data in from Google Sheets
     data: {
-      googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
-      googleSpreadsheetWorksheet: 2
+      // googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
+      // googleSpreadsheetWorksheet: 2
+      csv: document.getElementById('csv').innerHTML
     },
     // General Chart Options
     chart: {

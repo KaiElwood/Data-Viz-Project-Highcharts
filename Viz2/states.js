@@ -3,8 +3,9 @@ let year = 2021;
 let yearCent = '21cent';
 
 Highcharts.data({
-    googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
-    googleSpreadsheetWorksheet: 3,
+    // googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
+    // googleSpreadsheetWorksheet: 3,
+    csv: document.getElementById('csv').innerHTML,
 //   switchRowsAndColumns: true,
   parsed: function (columns) {
     for (let i = 1; i < columns.length; i++) {
