@@ -70,7 +70,7 @@ function renderChart(data) {
         maxColor: '#6a1B9A',
         stops: [
             [0, '#ffecb3'],
-            // [.2, '#e85285'],
+            [.6, '#e85285'],
             [1, '#6a1B9A']
         ]
     },
