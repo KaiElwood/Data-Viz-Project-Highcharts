@@ -5,8 +5,9 @@ let totalStates = 0;
 (array, key) => array.reduce((acc, val) => newF.push(val.percentPop),0);
 
 Highcharts.data({
-    googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
-    googleSpreadsheetWorksheet: 4,
+    // googleSpreadsheetKey: '1DYbkiSg4vkG2OxBvTU6eYjyqHYHAeH0LgBXI2KOWkp8',
+    // googleSpreadsheetWorksheet: 4,
+    csv: document.getElementById('csv').innerHTML,
 //   switchRowsAndColumns: true,
   parsed: function (columns) {
     for (let i = 1; i < columns.length; i++) {
