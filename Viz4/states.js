@@ -71,13 +71,13 @@ function renderChart(data) {
             //     Highcharts.defaultOptions.legend.backgroundColor || // theme
             //     'rgba(255,255,255,0.25)'
         },
-        colorAxis: {
-            min: 0,
-            max: .05,
-            type: 'linear',
-            minColor: '#EEEEFF',
-            maxColor: '#000022'
-        },
+        // colorAxis: {
+        //     min: 0,
+        //     max: .05,
+        //     type: 'linear',
+        //     minColor: '#EEEEFF',
+        //     maxColor: '#000022'
+        // },
         series: [{
             name: 'Average % of State Population',
             type: 'column',
