@@ -25,6 +25,7 @@ Highcharts.data({
         percentPop
       });
     }
+    dataset.sort((a, b) => b.percentPop - a.percentPop);
     data = Object.values(dataset);
     console.log(data)
     console.log(dataset)
