@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:45,New Recording 5
+#EXTVLCOPT:stop-time=60
+#EXTVLCOPT:input-slave=/Users/Holly/Downloads/New Recording 5.m4a
+file:///Users/Holly/Downloads/7e6213b0ee2a48118/Video%20With%20Original%20Audio%20Track.m3u8
+#EXTINF:10,Video With Original Audio Track0.ts
+#EXTVLCOPT:stop-time=60
+#EXTVLCOPT:input-slave=/Users/Holly/Downloads/New Recording 5.m4a
+file:///Users/Holly/Downloads/7e6213b0ee2a48118/Video%20With%20Original%20Audio%20Track0.ts
+#EXTINF:10,Video With Original Audio Track1.ts
+#EXTVLCOPT:stop-time=60
+#EXTVLCOPT:input-slave=/Users/Holly/Downloads/New Recording 5.m4a
+file:///Users/Holly/Downloads/7e6213b0ee2a48118/Video%20With%20Original%20Audio%20Track1.ts
+#EXTINF:10,Video With Original Audio Track2.ts
+#EXTVLCOPT:stop-time=60
+#EXTVLCOPT:input-slave=/Users/Holly/Downloads/New Recording 5.m4a
+file:///Users/Holly/Downloads/7e6213b0ee2a48118/Video%20With%20Original%20Audio%20Track2.ts
+#EXTINF:11,Video With Original Audio Track3.ts
+#EXTVLCOPT:stop-time=60
+#EXTVLCOPT:input-slave=/Users/Holly/Downloads/New Recording 5.m4a
+file:///Users/Holly/Downloads/7e6213b0ee2a48118/Video%20With%20Original%20Audio%20Track3.ts
+#EXTINF:10,Video With Original Audio Track4.ts
+#EXTVLCOPT:stop-time=60
+#EXTVLCOPT:input-slave=/Users/Holly/Downloads/New Recording 5.m4a
+file:///Users/Holly/Downloads/7e6213b0ee2a48118/Video%20With%20Original%20Audio%20Track4.ts
+#EXTINF:10,Video With Original Audio Track5.ts
+#EXTVLCOPT:stop-time=60
+#EXTVLCOPT:input-slave=/Users/Holly/Downloads/New Recording 5.m4a
+file:///Users/Holly/Downloads/7e6213b0ee2a48118/Video%20With%20Original%20Audio%20Track5.ts
